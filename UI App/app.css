@@ -1,0 +1,33 @@
+html,body,#root{
+    height: 100%;
+}
+
+#root{
+    background-color: aqua;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#score{
+    font-size: 1.5cm;
+    margin-top: 0.5cm;
+}
+
+#rgb{
+    font-size: 1cm;
+    margin-bottom: 30px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ball{
+    width: 60px;
+    height: 60px;
+    border: 3px #ffffff;
+    border-radius: 100%;
+}

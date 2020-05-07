@@ -1,0 +1,19 @@
+/* p{
+    color: blue;
+} */
+
+.color-red{
+    color: red;
+}
+
+#target{
+    color:red;
+}
+
+p{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
